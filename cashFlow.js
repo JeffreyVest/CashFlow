@@ -1,15 +1,19 @@
 angular.module('cashFlowApp', [])
     .controller('CashFlowController', ['$scope', function ($scope) {
 
+        var createDate = function (year, month, day) {
+            return new Date(year, month - 1, day);
+        };
+
         $scope.cashFlow =
             [
                 {
-                    DueDate: new Date(2015, 0, 9),
+                    DueDate: createDate(2015, 1, 9),
                     Description: 'Some Bill Data Bound',
                     Amount: 10
                 },
                 {
-                    DueDate: new Date(2015, 0, 15),
+                    DueDate: createDate(2015, 1, 15),
                     Description: 'Some Bill Data Bound 2',
                     Amount: 100
                 }
