@@ -1,0 +1,52 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Site Nav */
+
+.site-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.site-nav span {
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.site-nav span.current-menu-item {
+    color: #5b74f4
+}
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    width: 300px;
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 8px;
+    border: 1px solid #b1b1b1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+th.dollar-amount, td.dollar-amount {
+    text-align: right;
+    width: 150px;
+}
